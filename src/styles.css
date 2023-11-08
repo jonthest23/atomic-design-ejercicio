@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: rgb(122, 122, 224);
+    --secondary-color: rgb(255, 255, 255);
+    --tertiary-color: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    --header-height: 80px;
+    --blue-color: rgb(122, 122, 224);
+    --red-color: rgb(255, 0, 0);
+    --green-color: rgb(0, 255, 0);
+    --yellow-color: rgb(255, 255, 0);
+    --orange-color: rgb(255, 165, 0);
+    --purple-color: rgb(128, 0, 128);
+}
