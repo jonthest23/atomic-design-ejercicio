@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OrganismsModule } from './organisms/organisms.module';
+import { TemplatesModule } from './templates/templates.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { OrganismsModule } from './organisms/organisms.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OrganismsModule
+    OrganismsModule,
+    TemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

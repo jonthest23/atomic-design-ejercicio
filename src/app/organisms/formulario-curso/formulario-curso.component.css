@@ -1,0 +1,29 @@
+.formularioCurso{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.formularioCurso--contenedorTitulo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.formularioCurso--contenedorInput{
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.formularioCurso app-boton{
+    align-self: center;
+
+}
+

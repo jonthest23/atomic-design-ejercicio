@@ -1,9 +1,9 @@
 footer {
+    color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 20px 0;
+    height: var(--footer-height);
     text-align: center;
     font-size: 14px;
-    margin-top: 20px;
     position: absolute;
     bottom: 0;
     width: 100vw;

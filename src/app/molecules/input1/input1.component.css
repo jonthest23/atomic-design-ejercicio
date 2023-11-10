@@ -1,0 +1,15 @@
+.inputA{
+    width: 100%;
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+}
+.inputA input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.inputA input:focus {
+    border-bottom: 2px solid;
+}

@@ -9,8 +9,9 @@ body {
     --primary-color: rgb(122, 122, 224);
     --secondary-color: rgb(255, 255, 255);
     --tertiary-color: rgb(0, 0, 0);
-    --text-color: rgb(255, 255, 255);
+    --text-color: rgb(0, 0, 0);
     --header-height: 80px;
+    --footer-height: 40px;
     --blue-color: rgb(122, 122, 224);
     --red-color: rgb(255, 0, 0);
     --green-color: rgb(0, 255, 0);

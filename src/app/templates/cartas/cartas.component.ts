@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cartas',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./cartas.component.css']
 })
 export class CartasComponent {
+  @Input() isLogged: boolean = false;
+  
+  ngOnInit(): void {
+  }
 
 }

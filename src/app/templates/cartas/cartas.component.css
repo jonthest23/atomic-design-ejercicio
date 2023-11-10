@@ -1,0 +1,19 @@
+.templateCartas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 250px , 1fr));
+    grid-gap: 1rem;
+    padding: 10px;
+    height: calc(100vh - var(--header-height) - var(--footer-height) - 20px);
+    width: calc(100vw - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media (min-width: 1700px) {
+    .templateCartas{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+

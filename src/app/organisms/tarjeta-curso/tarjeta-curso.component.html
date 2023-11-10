@@ -1,6 +1,23 @@
-<section class="tarjetaCurso" [style.borderColor]="color">
-    <ng-content select="[titulo]"></ng-content>
-    <ng-content select="[descripcion]"></ng-content>
-    <app-boton color="{{color}}"></app-boton>
+<section class="tarjetaCurso" [style.borderColor]="color" [style.boxShadow]="boxShadow">
+    <div class="tarjetaCurso--contenedorTitulo">
+        <ng-content select="[titulo]"></ng-content>
+    </div>
+    <div class="tarjetaCurso--contenedorDescripcion">
+        <ng-content select="[descripcion]"></ng-content>
+    </div>
+    <div class="tarjetaCurso--contenedorProgreso" *ngIf="isLogged" [style.color]="color">
+    <span>Avance 30%</span>
+    <div class="tarjetaCurso--contenedorProgreso--progreso"  [style.borderColor]="color">
+        <div class="barraProgreso" [style.backgroundColor]="color">
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="tarjetaCurso--contenedorBoton" *ngIf="!isLogged">
+        <app-boton color="{{color}}" [click]="onClick"><ng-content select="[boton-text]"></ng-content></app-boton>
+    </div>
+
 
 </section>

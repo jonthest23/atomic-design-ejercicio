@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class BotonComponent {
 
   @Input() color: string = '--primary-color';
+  @Input() click: any = () => { };
 
 }

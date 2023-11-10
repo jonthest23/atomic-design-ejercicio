@@ -10,6 +10,9 @@ import { Input1Component } from './input1/input1.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    Input1Component
   ]
 })
 export class MoleculesModule { }

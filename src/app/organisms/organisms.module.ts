@@ -4,6 +4,9 @@ import { TarjetaCursoComponent } from './tarjeta-curso/tarjeta-curso.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AtomsModule } from '../atoms/atoms.module';
+import { FormularioCursoComponent } from './formulario-curso/formulario-curso.component';
+import { MoleculesModule } from '../molecules/molecules.module';
+import { Input1Component } from '../molecules/input1/input1.component';
 
 
 
@@ -11,16 +14,21 @@ import { AtomsModule } from '../atoms/atoms.module';
   declarations: [
     TarjetaCursoComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FormularioCursoComponent
+  
   ],
   imports: [
     CommonModule,
-    AtomsModule
+    AtomsModule,
+    MoleculesModule
+
   ],
   exports: [
     TarjetaCursoComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FormularioCursoComponent
   ]
 })
 export class OrganismsModule { }
